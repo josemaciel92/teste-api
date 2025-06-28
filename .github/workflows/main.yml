@@ -10,4 +10,4 @@ jobs:
       - name: Cypress.io rodando testes chrome
         uses: cypress-io/github-action@v5.8.2
         with:
-          command: npx cypress open
+          command: npx cypress run --browser chrome
