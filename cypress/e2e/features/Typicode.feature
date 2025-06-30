@@ -21,13 +21,13 @@ Feature: Typicode
         Then valido o post alterado <id> <userId> '<title>' '<body>'
 
         Examples:
-            | id | userId | title                   | body            |
-            | 1  | 1      | Vamos mudar para melhor | So se for agora |
+            | id | userId | title                   | body                     |
+            | 1  | 1      | Vamos mudar para melhor | So se for agora prossiga |
 
     Scenario Outline: Deletar post da lista - DELETE
         Given que deleto um post existente na lista <id>
         Then valido a exclusao do post da lista
 
         Examples:
-            | id | 
+            | id |
             | 1  |
